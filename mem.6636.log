@@ -1,0 +1,550 @@
+-----------
+Wed Feb 24 16:54:00 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:         1178448 kB
+MemAvailable:   63399656 kB
+Buffers:          955948 kB
+Cached:         60460944 kB
+SwapCached:       110264 kB
+Active:         16412536 kB
+Inactive:       46090356 kB
+Active(anon):     429440 kB
+Inactive(anon):   662928 kB
+Active(file):   15983096 kB
+Inactive(file): 45427428 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                24 kB
+Writeback:             0 kB
+AnonPages:       1061472 kB
+Mapped:           122200 kB
+Shmem:              6368 kB
+Slab:            1199124 kB
+SReclaimable:    1064100 kB
+SUnreclaim:       135024 kB
+KernelStack:       10224 kB
+PageTables:         8652 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2554392 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      508292 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    808960 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54551232 kB
+DirectMap2M:    12523520 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 16:57:06 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          810416 kB
+MemAvailable:   63031548 kB
+Buffers:          955948 kB
+Cached:         60460996 kB
+SwapCached:       110264 kB
+Active:         16488684 kB
+Inactive:       46090356 kB
+Active(anon):     505556 kB
+Inactive(anon):   662908 kB
+Active(file):   15983128 kB
+Inactive(file): 45427448 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                36 kB
+Writeback:             0 kB
+AnonPages:       1137356 kB
+Mapped:           406272 kB
+Shmem:              6368 kB
+Slab:            1206376 kB
+SReclaimable:    1063972 kB
+SUnreclaim:       142404 kB
+KernelStack:       10656 kB
+PageTables:        10852 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2720072 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    808960 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54653632 kB
+DirectMap2M:    12421120 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:00:37 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          842184 kB
+MemAvailable:   63063848 kB
+Buffers:          955948 kB
+Cached:         60461032 kB
+SwapCached:       110264 kB
+Active:         16488148 kB
+Inactive:       46090300 kB
+Active(anon):     504944 kB
+Inactive(anon):   662892 kB
+Active(file):   15983204 kB
+Inactive(file): 45427408 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                36 kB
+Writeback:             0 kB
+AnonPages:       1136184 kB
+Mapped:           371528 kB
+Shmem:              6368 kB
+Slab:            1205672 kB
+SReclaimable:    1064468 kB
+SUnreclaim:       141204 kB
+KernelStack:       10704 kB
+PageTables:        10196 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2727648 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    808960 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54653632 kB
+DirectMap2M:    12421120 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:04:10 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          948368 kB
+MemAvailable:   63169556 kB
+Buffers:          955948 kB
+Cached:         60460652 kB
+SwapCached:       110264 kB
+Active:         16399752 kB
+Inactive:       46113224 kB
+Active(anon):     416492 kB
+Inactive(anon):   686252 kB
+Active(file):   15983260 kB
+Inactive(file): 45426972 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                36 kB
+Writeback:             0 kB
+AnonPages:       1071224 kB
+Mapped:           312900 kB
+Shmem:              6368 kB
+Slab:            1205412 kB
+SReclaimable:    1064372 kB
+SUnreclaim:       141040 kB
+KernelStack:       10624 kB
+PageTables:        10588 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2613916 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    808960 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54661824 kB
+DirectMap2M:    12412928 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:07:42 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          782320 kB
+MemAvailable:   63003432 kB
+Buffers:          955948 kB
+Cached:         60460720 kB
+SwapCached:       110264 kB
+Active:         16460460 kB
+Inactive:       46113156 kB
+Active(anon):     477092 kB
+Inactive(anon):   686224 kB
+Active(file):   15983368 kB
+Inactive(file): 45426932 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                20 kB
+Writeback:             0 kB
+AnonPages:       1132172 kB
+Mapped:           364048 kB
+Shmem:              6368 kB
+Slab:            1206452 kB
+SReclaimable:    1064228 kB
+SUnreclaim:       142224 kB
+KernelStack:       10624 kB
+PageTables:         9748 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2683420 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54661824 kB
+DirectMap2M:    12412928 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:11:15 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          961576 kB
+MemAvailable:   63182848 kB
+Buffers:          955948 kB
+Cached:         60460672 kB
+SwapCached:       110264 kB
+Active:         16399060 kB
+Inactive:       46113300 kB
+Active(anon):     415512 kB
+Inactive(anon):   686596 kB
+Active(file):   15983548 kB
+Inactive(file): 45426704 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                96 kB
+Writeback:             0 kB
+AnonPages:       1071084 kB
+Mapped:           304100 kB
+Shmem:              6368 kB
+Slab:            1204788 kB
+SReclaimable:    1064436 kB
+SUnreclaim:       140352 kB
+KernelStack:       10640 kB
+PageTables:        10044 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2646012 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54670016 kB
+DirectMap2M:    12404736 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:14:47 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          864460 kB
+MemAvailable:   63085724 kB
+Buffers:          955948 kB
+Cached:         60460824 kB
+SwapCached:       110264 kB
+Active:         16399120 kB
+Inactive:       46113328 kB
+Active(anon):     415460 kB
+Inactive(anon):   686584 kB
+Active(file):   15983660 kB
+Inactive(file): 45426744 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                20 kB
+Writeback:             0 kB
+AnonPages:       1071020 kB
+Mapped:           326492 kB
+Shmem:              6368 kB
+Slab:            1205524 kB
+SReclaimable:    1064276 kB
+SUnreclaim:       141248 kB
+KernelStack:       10608 kB
+PageTables:        10832 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2614656 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    54674112 kB
+DirectMap2M:    12400640 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:18:22 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          990532 kB
+MemAvailable:   63085520 kB
+Buffers:          955948 kB
+Cached:         60334724 kB
+SwapCached:       110264 kB
+Active:         16460128 kB
+Inactive:       45985272 kB
+Active(anon):     476492 kB
+Inactive(anon):   684604 kB
+Active(file):   15983636 kB
+Inactive(file): 45300668 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                24 kB
+Writeback:             0 kB
+AnonPages:       1130040 kB
+Mapped:           354916 kB
+Shmem:              6368 kB
+Slab:            1204608 kB
+SReclaimable:    1064100 kB
+SUnreclaim:       140508 kB
+KernelStack:       10544 kB
+PageTables:        10244 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2662096 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    56177344 kB
+DirectMap2M:    10897408 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:21:58 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          881324 kB
+MemAvailable:   62975228 kB
+Buffers:          955948 kB
+Cached:         60333800 kB
+SwapCached:       110264 kB
+Active:         16474268 kB
+Inactive:       45984836 kB
+Active(anon):     490608 kB
+Inactive(anon):   685116 kB
+Active(file):   15983660 kB
+Inactive(file): 45299720 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                 8 kB
+Writeback:             0 kB
+AnonPages:       1144632 kB
+Mapped:           374384 kB
+Shmem:              6368 kB
+Slab:            1206000 kB
+SReclaimable:    1063940 kB
+SUnreclaim:       142060 kB
+KernelStack:       10576 kB
+PageTables:        10096 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2676424 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    56179392 kB
+DirectMap2M:    10895360 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:25:33 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:         1035664 kB
+MemAvailable:   63129652 kB
+Buffers:          955948 kB
+Cached:         60333868 kB
+SwapCached:       110264 kB
+Active:         16399276 kB
+Inactive:       45984864 kB
+Active(anon):     415592 kB
+Inactive(anon):   685100 kB
+Active(file):   15983684 kB
+Inactive(file): 45299764 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                24 kB
+Writeback:             0 kB
+AnonPages:       1069400 kB
+Mapped:           279364 kB
+Shmem:              6368 kB
+Slab:            1205752 kB
+SReclaimable:    1063956 kB
+SUnreclaim:       141796 kB
+KernelStack:       10624 kB
+PageTables:        10284 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2609840 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    56179392 kB
+DirectMap2M:    10895360 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
+-----------
+Wed Feb 24 17:29:07 2016
+-- /proc/meminfo --
+MemTotal:       66009092 kB
+MemFree:          922464 kB
+MemAvailable:   63016368 kB
+Buffers:          955948 kB
+Cached:         60333896 kB
+SwapCached:       110264 kB
+Active:         16487812 kB
+Inactive:       45982752 kB
+Active(anon):     504060 kB
+Inactive(anon):   683028 kB
+Active(file):   15983752 kB
+Inactive(file): 45299724 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       3997692 kB
+SwapFree:        3591088 kB
+Dirty:                80 kB
+Writeback:             0 kB
+AnonPages:       1155976 kB
+Mapped:           396468 kB
+Shmem:              6368 kB
+Slab:            1205348 kB
+SReclaimable:    1063844 kB
+SUnreclaim:       141504 kB
+KernelStack:       10544 kB
+PageTables:        10812 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    37002236 kB
+Committed_AS:    2712188 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      507988 kB
+VmallocChunk:   34359221244 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    815104 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    56179392 kB
+DirectMap2M:    10895360 kB
+DirectMap1G:     2097152 kB
+-- running cublas_leaker 100 times --
